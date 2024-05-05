@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.calendar table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.calendar th, .calendar td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.appointments-list {
+    margin-top: 20px;
+}
+
+.appointments-list ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.appointments-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    padding: 10px;
+    text-align: left;
+}

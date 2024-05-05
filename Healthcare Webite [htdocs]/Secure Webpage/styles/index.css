@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.site-header {
+    background-color: #005EB8;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search-bar input[type=search] {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #003087;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.account-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.access-section h1 {
+    color: #005EB8;
+}
+
+.features-list {
+    list-style: none;
+    padding: 0;
+}
+
+.features-list li {
+    margin-bottom: 5px;
+}
+
+.login-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007f3b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.site-footer {
+    background-color: #005EB8;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-nav li {
+    margin: 0 10px;
+}
+
+.search-bar {
+    margin-left: 20px;
+}
+
+.search-bar input[type=search], .search-bar button {
+    padding: 5px;
+    margin: 0;
+}
+
+.search-bar button {
+    background-color: #003087;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Centering the placeholders */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo, .account-nav {
+    flex: 1;
+}
+
+/* Align the logo and account-nav to their sides */
+.logo {
+    text-align: left;
+}
+
+.account-nav {
+    text-align: right;
+}
+
+.content-background {
+    background-color: white; /* White background for the content */
+    padding: 20px; /* Adjust padding as needed */
+    margin: auto; /* Center the content */
+    max-width: 800px; /* Maximum width of the content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Spacing from the footer or the next content */
+}

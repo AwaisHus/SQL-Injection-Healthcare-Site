@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h1 {
+    color: #005eb8;
+}
+
+.records-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.records-table th, .records-table td {
+    border: 1px solid #dddddd;
+    padding: 12px; /* Increased padding for better spacing */
+    text-align: center; /* Center align all the text */
+}
+
+.records-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.records-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

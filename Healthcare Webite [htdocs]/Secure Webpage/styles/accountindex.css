@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    min-height: 100vh;
+}
+
+.home-button {
+    background-color: #28a745; /* Adjust the button color as needed */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: block; /* Make it a block-level element */
+    width: auto; /* Auto width based on content */
+    margin: 0 auto 20px auto; /* Center the button with auto margins */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically if there's space */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Space from the top */
+}
+
+/* Style for both the login and register forms */
+.form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Width of forms */
+    /* Other styles remain the same */
+}
+
+/* Error message style */
+.error-message {
+    color: red;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Form basics */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: calc(100% - 16px); /* Account for padding */
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 4px; /* Rounded corners */
+}
+
+button {
+    background-color: #007bff; /* NHS Blue */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px; /* Space above the button */
+}
+
+/* Toggle button between forms */
+.toggle-btn {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.home-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.sql-inject-btn {
+    background-color: #dc3545; /* Bootstrap red */
+    color: white;
+    border: none; /* Removes default border */
+    padding: 10px 15px;
+    margin-top: 5px; /* Spacing between buttons */
+    width: 100%; /* Full width of the container */
+    cursor: pointer;
+}
+
+.sql-inject-btn:hover {
+    background-color: #c82333; /* Slightly darker red on hover */
+}
